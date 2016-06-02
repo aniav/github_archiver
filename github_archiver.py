@@ -2,7 +2,7 @@ import argparse
 import requests
 from requests.auth import HTTPBasicAuth
 
-url_base = 'https://github.com/'
+url_base = 'https://github.com'
 
 
 def download_repos(organisation, repos, user, token=None):
